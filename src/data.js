@@ -7,7 +7,7 @@ export const ord = [
         week: 43,
         word: 'fryktlaus',
         link: 'https://ordbokene.no/nn/22516'
-    }, {
+    }/*, {
         week: 44,
         word: 'fanget',
         link: 'https://ordbokene.no/nn/22516'
@@ -43,7 +43,7 @@ export const ord = [
         week: 52,
         word: 'julefred',
         link: 'https://ordbokene.no/nn/125030'
-    }
+    }*/
 ]
 
 export default ord;
