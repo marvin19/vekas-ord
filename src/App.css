@@ -1,0 +1,49 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none; 
+}
+
+h2 {
+  font-size: 4rem;
+  color: #213547;
+}
+
+body {
+  background-color: #8dd2dd;
+}
+
+a {
+  color: #213547;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #385667;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #213547;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  font-family: inherit;
+  background-color: #385667;
+  color: #FFFFFF;
+}
