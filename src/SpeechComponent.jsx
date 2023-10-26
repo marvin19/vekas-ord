@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SpeechComponent = ({wordToRead}) => {
 
     const handleClick = () => {
