@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react'
-import {getISODay, getWeek } from 'date-fns';
+import { getISODay, getWeek } from 'date-fns';
 import words from './data';
 import './App.css'
 
-const getWordForCurrentWeek = () => {
-  const currentWeek = getWeek(new Date());
-  const wordIndex = (currentWeek - 1) % words.length;
-  return words[wordIndex];
-}
-
 function App() {
-  const [currentWord, setCurrentWord] = useState(getWordForCurrentWeek);
+  const [currentWord, setCurrentWord] = useState('');
+
+  // Getting current week
+  const currentWeek =  getWeek(new Date());
+
+  // Finding word based on current week
+  const weekObj = words.find(word => word.week === currentWeek);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -18,27 +18,26 @@ function App() {
 
       // Show a new word every monday (ISO day 1);
       if(isoDay === 1){
-        setCurrentWord(getWordForCurrentWeek);
+        setCurrentWord(weekObj.word);
       }
     }, 1000 * 60 * 60 * 12); // Check every 12 hours
 
     return() => clearInterval(intervalId);
   }, [])
 
-
-
-
   return (
-    <>
+    <div>
       <h1 className="hidden">Vekas ord: </h1>
-      <h2>
+      <div>
+        <h2>
         <span aria-label="hidden">⭐️</span>
-         {currentWord.word} 
+         {weekObj.word} 
          <span aria-label="hidden">⭐️</span>
-      </h2>
-      <p>Link: <a href={currentWord.link}>{currentWord.link}</a></p>
+        </h2>
+      </div>
+      <p>Link: <a href={weekObj.link}>{weekObj.link}</a></p>
     
-    </>
+    </div>
   )
 }
 

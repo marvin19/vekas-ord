@@ -4,10 +4,10 @@ export const ord = [
         word: 'å lista',
         link: 'https://ordbokene.no/nn/45867'
     }, {
-        week: 43,
+        week: 43, // Me er i veke 43
         word: 'fryktlaus',
         link: 'https://ordbokene.no/nn/22516'
-    }/*, {
+    }, {
         week: 44,
         word: 'fanget',
         link: 'https://ordbokene.no/nn/22516'
@@ -43,7 +43,7 @@ export const ord = [
         week: 52,
         word: 'julefred',
         link: 'https://ordbokene.no/nn/125030'
-    }*/
+    }
 ]
 
 export default ord;
