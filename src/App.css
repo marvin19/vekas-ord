@@ -13,7 +13,6 @@
 h2 {
   font-size: 4rem;
   color: #213547;
-  margin-bottom: 0;
 }
 
 body {
@@ -51,4 +50,15 @@ button:hover {
 
 .small {
   font-size: 2rem;
+}
+
+.emoji {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media (max-width: 576px){
+  h2 {
+    font-size: 2rem;
+  }
 }

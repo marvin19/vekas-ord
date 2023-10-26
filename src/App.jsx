@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { getISODay, getWeek } from 'date-fns';
 import words from './data';
+import Emoji from './Emoji';
 import SpeechComponent from './SpeechComponent';
 import './App.css'
 
@@ -34,9 +35,9 @@ function App() {
       <div>
         <h2 className="small">Veke {currentWeek}</h2>
         <h2>
-        <span aria-label="hidden">⭐️</span>
+        <Emoji emoji="🇳🇴" />
          {weekObj.word} 
-         <span aria-label="hidden">⭐️</span>
+         <Emoji emoji="🇳🇴" />
         </h2>
         <SpeechComponent wordToRead={weekObj.word} />
       </div>
