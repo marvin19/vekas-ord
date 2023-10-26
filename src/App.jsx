@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { getISODay, getWeek } from 'date-fns';
 import words from './data';
+import SpeechComponent from './SpeechComponent';
 import './App.css'
 
 function App() {
@@ -25,18 +26,21 @@ function App() {
     return() => clearInterval(intervalId);
   }, [])
 
+  console.log(weekObj.word);
+
   return (
     <div>
       <h1 className="hidden">Vekas ord: </h1>
       <div>
+        <h2 className="small">Veke {currentWeek}</h2>
         <h2>
         <span aria-label="hidden">⭐️</span>
          {weekObj.word} 
          <span aria-label="hidden">⭐️</span>
         </h2>
+        <SpeechComponent wordToRead={weekObj.word} />
       </div>
       <p>Link: <a href={weekObj.link}>{weekObj.link}</a></p>
-    
     </div>
   )
 }

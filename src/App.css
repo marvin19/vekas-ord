@@ -13,6 +13,7 @@
 h2 {
   font-size: 4rem;
   color: #213547;
+  margin-bottom: 0;
 }
 
 body {
@@ -46,4 +47,8 @@ button:hover {
   font-family: inherit;
   background-color: #385667;
   color: #FFFFFF;
+}
+
+.small {
+  font-size: 2rem;
 }
