@@ -3,6 +3,7 @@ import { getISODay, getWeek } from 'date-fns';
 import words from './data';
 import Emoji from './Emoji';
 import SpeechComponent from './SpeechComponent';
+import WeekWord from './WeekWord';
 import './App.css'
 
 function App() {
@@ -27,21 +28,10 @@ function App() {
     return() => clearInterval(intervalId);
   }, [])
 
-  console.log(weekObj.word);
-
   return (
     <div>
       <h1 className="hidden">Vekas ord: </h1>
-      <div>
-        <h2 className="small">Veke {currentWeek}</h2>
-        <h2>
-        <Emoji emoji="🇳🇴" />
-         {weekObj.word} 
-         <Emoji emoji="🇳🇴" />
-        </h2>
-        <SpeechComponent wordToRead={weekObj.word} />
-      </div>
-      <p>Link: <a href={weekObj.link}>{weekObj.link}</a></p>
+      <WeekWord weekObj={weekObj} />
     </div>
   )
 }
