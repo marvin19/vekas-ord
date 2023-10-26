@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react'
 import { getISODay, getWeek } from 'date-fns';
 import words from './data';
-import Emoji from './Emoji';
-import SpeechComponent from './SpeechComponent';
 import WeekWord from './WeekWord';
 import './App.css'
 
