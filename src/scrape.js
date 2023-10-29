@@ -4,7 +4,7 @@ const fetchText = async () => {
     let browser;
 
     try {
-        browser = await puppeteer.launch({headless:false});
+        browser = await puppeteer.launch();
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(2 * 60 * 1000);
         await page.goto('https://ordbokene.no/nn/45867')
