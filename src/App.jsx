@@ -3,7 +3,6 @@ import words from './data';
 import WeekWord from './WeekWord';
 import './App.css'
 
-
 function App() {
   // Getting current week
   const currentWeek =  getWeek(new Date());
