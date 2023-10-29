@@ -12,7 +12,7 @@ function App() {
   const weekObj = words.find(word => word.week === currentWeek);
 
   return (
-    <div>
+    <div className="word-container">
       <h1 className="hidden">Vekas ord: </h1>
       <WeekWord weekObj={weekObj} />
     </div>

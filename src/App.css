@@ -1,32 +1,47 @@
-#root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/***** ELEMENTS *****/ 
+html { /* 16px */
+  font-size: 100%;
 }
 
-.hidden {
-  display: none; 
+:root {
+  /* main colors */
+  --dark-blue: #213547;
+  --blue: #8dd2dd;
+  --light-blue: #CCEBF0;
+  --white: #FFFFFF;
+
+  /* other colors */
+  --backgroundColor: var(--blue);
+  --backgroundColorLight: var(--light-blue);
+  --textColor: var(--dark-blue);
+  --hoverColor: #385667;
+
+  /* rest of vars */
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 600px;
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+body {
+  background: var(--backgroundColor);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  color: var(--textColor);
 }
 
 h2 {
   font-size: 4rem;
-  color: #213547;
-}
-
-body {
-  background-color: #8dd2dd;
 }
 
 a {
-  color: #213547;
+  color: var(--textColor);
   text-decoration: underline;
   font-weight: 500;
 }
 
 a:hover {
-  color: #385667;
+  color: var(--hoverColor);
 }
 
 button {
@@ -36,16 +51,36 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #213547;
-  color: #FFFFFF;
+  background-color: var(--dark-blue);
+  color: var(--white);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 button:hover {
   font-family: inherit;
-  background-color: #385667;
-  color: #FFFFFF;
+  background-color: var(--hoverColor);
+  color: var(--white);
+}
+
+@media (max-width: 576px){
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/***** ID *****/ 
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/***** Class *****/ 
+.hidden {
+  display: none; 
 }
 
 .small {
@@ -57,8 +92,15 @@ button:hover {
   margin-right: 15px;
 }
 
-@media (max-width: 576px){
-  h2 {
-    font-size: 2rem;
-  }
+.word-container {
+  border: 2px solid var(--dark-blue);
+  border-radius: 10px;
+  background-color: var(--light-blue);
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 80vw;
+  max-width: 800px;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
 }
