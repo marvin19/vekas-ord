@@ -36,4 +36,4 @@ const fetchText = async () => {
     }
 }
 
-fetchText();
+export default fetchText;
