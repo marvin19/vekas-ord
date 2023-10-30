@@ -4,13 +4,13 @@ export const ord = [
         word: 'å lista',
         link: 'https://ordbokene.no/nn/45867'
     }, {
-        week: 43, // Me er i veke 43
+        week: 43,
         word: 'fryktlaus',
         link: 'https://ordbokene.no/nn/22516'
     }, {
-        week: 44,
+        week: 44, // current week
         word: 'fanget',
-        link: 'https://ordbokene.no/nn/22516'
+        link: 'https://ordbokene.no/bm/13786'
     }, {
         week: 45,
         word: 'å kviskre',
