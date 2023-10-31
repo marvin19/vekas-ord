@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const SpeechComponent = ({wordToRead}) => {
 
     const handleClick = () => {
@@ -17,5 +19,9 @@ const SpeechComponent = ({wordToRead}) => {
     </div>
   )
 }
+
+SpeechComponent.propTypes = {
+  wordToRead: PropTypes.string.isRequired
+};
 
 export default SpeechComponent

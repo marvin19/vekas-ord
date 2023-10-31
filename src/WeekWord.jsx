@@ -1,4 +1,5 @@
 import Emoji from './Emoji';
+import PropTypes from 'prop-types';
 import SpeechComponent from './SpeechComponent';
 
 const WeekWord = ({ weekObj }) => {
@@ -18,4 +19,12 @@ const WeekWord = ({ weekObj }) => {
   )
 }
 
-export default WeekWord
+WeekWord.propTypes = {
+  weekObj: PropTypes.shape({
+    week: PropTypes.number.isRequired,
+    word: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired
+  }).isRequired,
+}
+
+export default WeekWord;
