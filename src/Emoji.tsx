@@ -1,6 +1,12 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Emoji = ({emoji}) => {
+
+interface EmojiProps {
+  emoji: string
+}
+
+const Emoji: React.FC<EmojiProps> = ({emoji}) => {
   return (
     <span className="emoji" aria-label="hidden">{emoji}</span>
   )
