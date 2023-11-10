@@ -1,6 +1,11 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const SpeechComponent = ({wordToRead}) => {
+interface Props {
+  wordToRead: string;
+}
+
+const SpeechComponent: React.FC<Props> = ({wordToRead}) => {
 
     const handleClick = () => {
         // Use Web Speech API to read the fixed text

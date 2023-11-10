@@ -1,4 +1,10 @@
-export const ord = [
+export interface Word {
+    week: number;
+    word: string;
+    link: string;
+};
+
+export const ord: Word[] = [
     {
         week: 42,
         word: 'å lista',
