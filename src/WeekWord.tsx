@@ -1,8 +1,15 @@
+import React from 'react';
 import Emoji from './Emoji';
 import PropTypes from 'prop-types';
 import SpeechComponent from './SpeechComponent';
 
-const WeekWord = ({ weekObj }) => {
+interface WeekObj {
+  week: number,
+  word: string,
+  link: string
+}
+
+const WeekWord: React.FC<{ weekObj: WeekObj }> = ({ weekObj }) => {
   return (
     <div>
         <h2 className="small">Veke {weekObj.week}</h2>
