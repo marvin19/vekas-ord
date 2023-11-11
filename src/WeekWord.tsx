@@ -20,7 +20,7 @@ const WeekWord: React.FC<{ weekObj: WeekObj }> = ({ weekObj }) => {
         </h2>
         <SpeechComponent wordToRead={weekObj.word} />
         <p>
-            Link: <a href={weekObj.link}>Link til ordbok</a>
+            <a href={weekObj.link}>Link til ordbok</a>
         </p>
     </div>
   )

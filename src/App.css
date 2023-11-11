@@ -44,7 +44,7 @@ a:hover {
   color: var(--hoverColor);
 }
 
-button {
+button, .btn-main {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -55,9 +55,10 @@ button {
   color: var(--white);
   cursor: pointer;
   transition: border-color 0.25s;
+  text-decoration: none;
 }
 
-button:hover {
+button:hover, .btn-main:hover {
   font-family: inherit;
   background-color: var(--hoverColor);
   color: var(--white);
@@ -101,6 +102,6 @@ button:hover {
   width: 80vw;
   max-width: 800px;
   position: relative;
-  height: 350px;
+  height: 450px;
   overflow: hidden;
 }
