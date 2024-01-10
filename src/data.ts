@@ -1,4 +1,18 @@
-export const ord: Object = {
+export interface Word {
+    week: number;
+    word: string; 
+    link: string;
+  }
+  
+  export interface WordsByYear {
+    [year: number]: Word[];
+  }
+
+  export interface Ord {
+    [key: number]: Word[];
+  }
+
+export const words: WordsByYear = {
     2023: [
         {
             week: 42,
@@ -87,4 +101,4 @@ export const ord: Object = {
     ]
 };
 
-export default ord;
+export default words;
