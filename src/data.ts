@@ -87,16 +87,12 @@ export const words: WordsByYear = {
             link: 'https://ordbokene.no/bm/63646'
         }, {
             week: 7,
-            word: 'julefred',
-            link: 'https://ordbokene.no/nn/125030'
+            word: 'larm',
+            link: 'https://ordbokene.no/nn/44668'
         }, {
             week: 8,
             word: 'høfleg',
             link: 'https://ordbokene.no/nn/32478'
-        }, {
-            week: 9,
-            word: 'larm',
-            link: 'https://ordbokene.no/nn/44668'
         }
     ]
 };
