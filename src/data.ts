@@ -185,6 +185,10 @@ export const words: WordsByYear = {
             week: 31,
             word: 'trestubb',
             link: 'https://ordbokene.no/nn/80952'
+        }, {
+            week: 32,
+            word: 'kjelke',
+            link: 'https://ordbokene.no/nn/38032'
         }
     ]
 };
