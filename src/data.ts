@@ -95,8 +95,8 @@ export const words: WordsByYear = {
             link: 'https://ordbokene.no/nn/32478'
         }, {
             week: 9,
-            word: 'larm',
-            link: 'https://ordbokene.no/nn/44668'
+            word: 'vannkanne',
+            link: 'https://naob.no/ordbok/vannkanne'
         }, {
             week: 10,
             word: 'skjødesløs',
