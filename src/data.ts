@@ -190,6 +190,117 @@ export const words: WordsByYear = {
             word: 'kjelke',
             link: 'https://ordbokene.no/nn/38032'
         }
+    ],
+    2025: [
+        {
+            week: 1,
+            word: 'kjensle',
+            link: 'https://ordbokene.no/nno/nn/kjensle'
+        }, {
+            week: 2,
+            word: 'andlet',
+            link: 'https://ordbokene.no/nno/nn/andlet'
+        }, {
+            week: 3,
+            word: 'blømande',
+            link: 'https://ordbokene.no/nno/nn/bl%C3%B8mande'
+        }, {
+            week: 4,
+            word: 'einskild',
+            link: 'https://ordbokene.no/nno/nn/einskild'
+        }, {
+            week: 5,
+            word: 'fager',
+            link: 'https://ordbokene.no/nno/nn/fager'
+        }, {
+            week: 6,
+            word: 'gjestmild',
+            link: 'https://ordbokene.no/nno/nn/gjestmild'
+        }, {
+            week: 7,
+            word: 'hugnad',
+            link: 'https://ordbokene.no/nno/nn/hugnad'
+        }, {
+            week: 8,
+            word: 'innhogg',
+            link: 'https://ordbokene.no/nno/nn/innhogg'
+        }, {
+            week: 9,
+            word: 'jamvekt',
+            link: 'https://ordbokene.no/nno/nn/jamvekt'
+        }, {
+            week: 10,
+            word: 'kløktig',
+            link: 'https://ordbokene.no/nno/nn/kl%C3%B8ktig'
+        }, {
+            week: 11,
+            word: 'å lystra',
+            link: 'https://ordbokene.no/nno/nn/lystre'
+        }, {
+            week: 12,
+            word: 'omsyn',
+            link: 'https://ordbokene.no/nno/nn/omsyn'
+        }, {
+            week: 13,
+            word: 'storslått',
+            link: 'https://ordbokene.no/nno/nn/storsl%C3%A5tt'
+        }, {
+            week: 14,
+            word: 'tryggleik',
+            link: 'https://ordbokene.no/nno/nn/tryggleik'
+        }, {
+            week: 15,
+            word: 'vakker',
+            link: 'https://ordbokene.no/nno/nn/vakker'
+        }, {
+            week: 16,
+            word: 'yrkesstoltheit',
+            link: 'https://ordbokene.no/nno/nn/yrkesstoltheit'
+        }, {
+            week: 17,
+            word: 'bøyg',
+            link: 'https://ordbokene.no/nno/nn/b%C3%B8yg'
+        }, {
+            week: 18,
+            word: 'kvilestund',
+            link: 'https://ordbokene.no/nno/nn/kvilestund'
+        }, {
+            week: 19,
+            word: 'oppkome',
+            link: 'https://ordbokene.no/nno/nn/oppkome'
+        }, {
+            week: 20,
+            word: 'andakt',
+            link: 'https://ordbokene.no/nno/nn/andakt'
+        }, {
+            week: 21,
+            word: 'bølgjete',
+            link: 'https://ordbokene.no/nno/nn/b%C3%B8lgjete'
+        }, {
+            week: 22,
+            word: 'eldhug',
+            link: 'https://ordbokene.no/nno/nn/eldhug'
+        }, {
+            week: 23,
+            word: 'fjordbotn',
+            link: 'https://ordbokene.no/nno/nn/fjordbotn'
+        }, {
+            week: 24,
+            word: 'grøde',
+            link: 'https://ordbokene.no/nno/nn/gr%C3%B8de'
+        }, {
+            week: 25,
+            word: 'livslyst',
+            link: 'https://ordbokene.no/nno/nn/livslyst'
+        }, {
+            week: 26,
+            word: 'ordspel',
+            link: 'https://ordbokene.no/nno/nn/ordspel'
+        }, {
+            week: 27,
+            word: 'solskin',
+            link: 'https://ordbokene.no/nno/nn/solskin'
+        }
     ]
 };
 
