@@ -198,8 +198,8 @@ export const words: WordsByYear = {
             link: 'https://ordbokene.no/nno/nn/kjensle'
         }, {
             week: 2,
-            word: 'andlet',
-            link: 'https://ordbokene.no/nno/nn/andlet'
+            word: 'pinleg',
+            link: 'https://ordbokene.no/nno/nn/pinleg'
         }, {
             week: 3,
             word: 'blømande',
@@ -300,6 +300,10 @@ export const words: WordsByYear = {
             week: 27,
             word: 'solskin',
             link: 'https://ordbokene.no/nno/nn/solskin'
+        }, {
+            week: 28,
+            word: 'andlet',
+            link: 'https://ordbokene.no/nno/nn/andlet'
         }
     ]
 };
